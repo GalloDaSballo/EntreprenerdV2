@@ -221,13 +221,13 @@ export default function Home() {
               <div className="card cursor-pointer">
                 <div className="p-8 md:p-10">
                   <div className="flex flex-col gap-6">
-                    <div className="screenshot-container" style={{ aspectRatio: '16/9' }}>
+                    <div className="screenshot-container">
                       <Image
                         src="https://github-readme-stats.vercel.app/api?username=GalloDaSballo&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=ffffff&icon_color=60a5fa"
                         alt="GitHub Stats"
-                        width={800}
-                        height={450}
-                        className="w-full h-full object-cover rounded-lg"
+                        width={1710}
+                        height={1069}
+                        className="w-full h-full rounded-lg"
                         unoptimized
                       />
                     </div>
