@@ -25,7 +25,7 @@ export default function Home() {
                 href="https://github.com/GalloDaSballo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-all border border-zinc-800 hover:border-zinc-700 text-white"
+                className="p-25 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-all text-white"
                 aria-label="GitHub"
               >
                 <FaGithub className="w-6 h-6" />
@@ -34,7 +34,7 @@ export default function Home() {
                 href="https://www.youtube.com/@AlextheEntreprenerd"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-all border border-zinc-800 hover:border-zinc-700 text-white"
+                className="p-25 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-all text-white"
                 aria-label="YouTube"
               >
                 <FaYoutube className="w-6 h-6" />
@@ -43,7 +43,7 @@ export default function Home() {
                 href="https://twitter.com/GalloDaSballo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-4 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-all border border-zinc-800 hover:border-zinc-700 text-white"
+                className="p-25 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-all text-white"
                 aria-label="Twitter"
               >
                 <FaTwitter className="w-6 h-6" />
@@ -213,29 +213,57 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Notable Open Source Projects */}
+        {/* Open Source */}
         <div className="max-w-6xl mx-auto mb-40">
-          <h2 className="text-3xl md:text-4xl font-bold mb-20 text-center tracking-tight text-white">Notable Open Source</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-20 text-center tracking-tight text-white">Open Source</h2>
           <div className="grid md:grid-cols-2 gap-10">
-            <a href="https://github.com/GalloDaSballo/chimera" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://github.com/GalloDaSballo" target="_blank" rel="noopener noreferrer" className="block">
               <div className="card cursor-pointer">
-                <div className="p-7">
-                  <h3 className="text-xl md:text-2xl font-bold mb-4 leading-tight text-white">
-                    Chimera
-                  </h3>
-                  <div className="screenshot-container mb-4" style={{ aspectRatio: '16/9' }}>
-                    <Image
-                      src="/screenshots/chimera.png"
-                      alt="Chimera"
-                      width={800}
-                      height={450}
-                      className="w-full h-full object-cover"
-                    />
+                <div className="p-8 md:p-10">
+                  <div className="flex flex-col gap-6">
+                    <div className="screenshot-container" style={{ aspectRatio: '16/9' }}>
+                      <Image
+                        src="https://github-readme-stats.vercel.app/api?username=GalloDaSballo&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=ffffff&icon_color=60a5fa"
+                        alt="GitHub Stats"
+                        width={800}
+                        height={450}
+                        className="w-full h-full object-cover rounded-lg"
+                        unoptimized
+                      />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl md:text-3xl font-bold mb-3 leading-tight text-white">
+                        GitHub Profile
+                      </h3>
+                      <p className="text-gray-200 text-base md:text-lg leading-relaxed">
+                        Open source security tools, audits, and smart contract research
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-sm text-gray-400 mb-3">★ 134 stars</p>
-                  <p className="text-gray-200 text-sm md:text-base leading-relaxed">
-                    Smart contract property-based testing framework
-                  </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/Recon-Fuzz" target="_blank" rel="noopener noreferrer" className="block">
+              <div className="card cursor-pointer">
+                <div className="p-8 md:p-10">
+                  <div className="flex flex-col gap-6">
+                    <div className="screenshot-container flex items-center justify-center bg-gradient-to-br from-zinc-900 to-black" style={{ aspectRatio: '16/9' }}>
+                      <div className="text-center p-8">
+                        <div className="text-6xl md:text-7xl mb-4">🔬</div>
+                        <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">Recon-Fuzz</h3>
+                        <p className="text-lg text-gray-400">GitHub Organization</p>
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-2xl md:text-3xl font-bold mb-3 leading-tight text-white">
+                        Recon-Fuzz
+                      </h3>
+                      <p className="text-gray-200 text-base md:text-lg leading-relaxed">
+                        Organization for fuzzing tools, templates, and smart contract testing frameworks
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </a>
