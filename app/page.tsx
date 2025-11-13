@@ -42,7 +42,7 @@ export default function Home() {
 
       <h4>One Bug Per Day</h4>
       <p>
-        <a href="https://www.onebugperday.com/" target="_blank" rel="noopener noreferrer">Curated vulnerability disclosure platform</a> delivering security findings from top auditors and researchers daily.
+        <a href="https://www.onebugperday.com/" target="_blank" rel="noopener noreferrer">Curated vulnerability learning platform</a> publishing bug reports from top auditors and researchers daily.
       </p>
       <ul>
         <li>450+ Members</li>
