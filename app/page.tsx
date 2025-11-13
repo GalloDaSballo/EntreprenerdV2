@@ -36,8 +36,8 @@ export default function Home() {
       </p>
       <ul>
         <li>1,500+ Subscribers</li>
-        <li>Updates every 3 hours</li>
-        <li>Daily notifications</li>
+        <li>Daily email</li>
+        <li>Most read daily newsletter for smart contract security</li>
       </ul>
 
       <h4>One Bug Per Day</h4>
@@ -46,8 +46,7 @@ export default function Home() {
       </p>
       <ul>
         <li>450+ Members</li>
-        <li>Daily H/M bug reports</li>
-        <li>Browser extension access</li>
+        <li>New bug report daily</li>
       </ul>
 
       <hr />
