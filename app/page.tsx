@@ -11,7 +11,7 @@ export default function Home() {
         <a href="https://www.youtube.com/@AlextheEntreprenerd" target="_blank" rel="noopener noreferrer">Youtube</a>
       </p>
 
-      <p>Smart Contract Security Expert & Blockchain Developer. Elite Security Researcher, specialized in DeFi and Invariant Testing on the EVM.</p>
+      <p>Elite Solidity Security Researcher & Developer, specialized in DeFi and Invariant Testing.</p>
 
       <hr />
 
