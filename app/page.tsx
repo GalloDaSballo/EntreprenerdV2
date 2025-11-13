@@ -51,6 +51,45 @@ export default function Home() {
 
       <hr />
 
+      <h3>Audit Contest Achievements</h3>
+
+      <p>
+        Competitive security researcher with multiple top placements across leading audit platforms.
+      </p>
+
+      <ul>
+        <li>$20M+ saved from exploits on live contracts</li>
+        <li>$500K+ awarded in contest and bounty wins</li>
+      </ul>
+
+      <h4>Top Contest Wins</h4>
+      <ul>
+        <li>
+          <strong>Tapioca DAO - 1st Place</strong> (Jul 2023) - $21,082.74 USDC | 6 Highs, 19 Mediums
+        </li>
+        <li>
+          <strong>BASE - 1st Place</strong>
+        </li>
+        <li>
+          <strong>Optimism Fault Proofs - 2nd Place</strong> (Mar 2024) - $35,478.23 USDC | 2 Mediums
+        </li>
+        <li>
+          <strong>Blast - 10th Place</strong> (Jan 2024) - $40,646.95 USDC | 1 High, 2 Mediums
+        </li>
+      </ul>
+
+      <h4>Recognition</h4>
+      <ul>
+        <li>
+          Top 50 whitehat by winnings | C4 Blue Captain | LSR At Spearbit | OG Warden | Greatest Judge in C4 history
+        </li>
+        <li>2x 1st Place, 5x 2nd Place, 3x 3rd Place wins</li>
+        <li>10 Top-3 finishes across platforms</li>
+        <li>27 Top-10 rankings</li>
+      </ul>
+
+      <hr />
+
       <h3>Open Source</h3>
 
       <p>
