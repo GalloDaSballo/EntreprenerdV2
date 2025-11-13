@@ -25,6 +25,7 @@ export default function Home() {
         <li>Manual security audits by experienced researchers</li>
         <li>Cloud-based fuzzing supporting Medusa, Echidna, Halmos, and Kontrol</li>
       </ul>
+      <a href="https://getrecon.xyz/" target="_blank" rel="noopener noreferrer">Talk to me about securing your Solidity Project</a>
 
       <hr />
 
@@ -39,6 +40,7 @@ export default function Home() {
         <li>Daily email</li>
         <li>Most read daily newsletter for smart contract security</li>
       </ul>
+      <a href="https://docs.google.com/document/d/1NmIuVId6dywQuGkxGRu95_rgPfT2sma-1TmAe8WS-B0/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Advertise on the Daily Warden</a>
 
       <h4>One Bug Per Day</h4>
       <p>
